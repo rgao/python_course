@@ -3,6 +3,13 @@
     src: url("../../assets/fonts/flux_regular.otf")
 }
 
+.navbar {
+    background-color: #1e2933;
+    font-family: 'Flux Regular';
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid black
+}
+
 /* .navbar-header {
     float: left;
     width: 100%;
@@ -13,16 +20,32 @@
     -webkit-text-fill-color: transparent;
 } */
 
-.navbar {
-    background-color: #1e2933;
-    font-family: 'Flux Regular';
+.nav-btn {
+    border-left: 1px solid #333333;
+    border-right: 1px solid black
 }
 
-.navbar-header:hover {
+.nav-btn:hover {
+    background-color: #121b24
+}
+
+.nav-btn:active {
+    background-color: #020f1d
+}
+
+#home-btn {
+    border-left: 1px solid black
+}
+
+.nav-btn:hover {
     text-decoration: none;
 }
 
 .nav-link {
-    font-weight: bold;
-    right: 0
+    color: #dddddd;
+    font-size: 1.5em;
+}
+
+.nav-link:hover {
+    color: gold
 }

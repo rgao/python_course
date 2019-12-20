@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Flux Regular';
+    src: url("../../assets/fonts/flux_regular.otf")
+}
+
+h1 {
+    font-family: 'Flux Regular';
+    display: inline;
+    font-size: 3em;
+    background: -webkit-linear-gradient(white, goldenrod);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#python-logo {
+    width: 10%
+}
+
+.intro {
+    height: 45vh;
+}
+
+#code-editor {
+    background: #121b24;
+    color: #cccccc;
+    border-radius: .25em!important;
+    box-shadow: 0 4px 8px 0 navy, 0 6px 20px 0 orange;
+}
+
+.intro-text {
+    color: rgb(1, 139, 1)
+}
