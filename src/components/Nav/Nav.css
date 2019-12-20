@@ -1,12 +1,21 @@
-.navbar-header {
+@font-face {
+    font-family: 'Flux Regular';
+    src: url("../../assets/fonts/flux_regular.otf")
+}
+
+/* .navbar-header {
     float: left;
     width: 100%;
-    font-family: 'Berkshire Swash', cursive;
-    font-weight: bold;
+    font-family: 'Flux Regular';
     font-size: 3em;
-    background: -webkit-linear-gradient(white, gray);
+    background: -webkit-linear-gradient(#666666, #888888);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+} */
+
+.navbar {
+    background-color: #1e2933;
+    font-family: 'Flux Regular';
 }
 
 .navbar-header:hover {
