@@ -20,7 +20,44 @@ class Home extends Component {
 
                 <Row className="intro justify-content-center mt-5">
                     <Col xs={10} md={8} lg={7} xl={6} id="code-editor">
-                        <p className="mx-1 my-4 intro-text"># Python is an intuitive, high-level language that serves as an excellent gateway into the world of programming.</p>
+                        <p className="mx-1 my-4 intro-text">
+                            # Python is an intuitive, high-level language that serves as an excellent gateway into the world of programming.
+                        </p>
+                        <p className="mx-1 my-4 intro-text">
+                            # It is widely used across many industries for purposes including data analysis, scientific computing, and web design. 
+                        </p>
+                        <p className="mx-1 my-4 intro-text">
+                            # Its large open-source community contributes to its vast-reaching documentation.
+                        </p>
+
+                        <div className="pycode">
+                            <p>
+                                <span className="function-dec">def</span> <span className="keyword">hello_world</span>(<span className="argument">notpluto</span>):
+                            </p>
+                            <p className="pystring">
+                                """
+                                <br />
+                                Says Hi
+                                <br />  
+                                <br />
+                                """
+                            </p>
+                            <p className="indent-code">
+                                <span className="keyword">print</span>(<span ClassName="pystring">"Welcome to the world of programming!"</span>)
+                                <br />
+                                <br />
+                                <span className="keyword">print</span>(<span ClassName="pystring">"There are "</span> 
+                                    + <span className="argument">notpluto</span> + 
+                                    <span ClassName="pystring">" planets in the Solar System."</span>)
+                            </p>
+                            <p className="ide-text mt-4">>>> hello_world(8)</p>
+                            <p>
+                                Welcome to the world of programming!
+                                <br />
+                                <br />
+                                There are 8 planets in the Solar System.
+                            </p>
+                        </div>
                     </Col>
                 </Row>
             </div>
