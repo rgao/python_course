@@ -61,9 +61,9 @@ class Home extends Component {
                     </Col>
                 </Row>
 
-                <nav className="navbar navbar-light navbar-expand-lg justify-content-center py-0">
-                    <Col lg={2} className="text-center nav-btn py-2" id="home-btn">
-                        <Link className="nav-link" to={"/orientation"}>Get Started</Link>
+                <nav className="navbar navbar-expand-lg justify-content-center fixed-bottom mt-5 py-0" id="start-bar">
+                    <Col lg={2} className="text-center nav-btn py-2" id="start-btn">
+                        <Link id="start-link" to={"/orientation"}>Get Started</Link>
                     </Col>
                 </nav>
             </div>

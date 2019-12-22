@@ -3,6 +3,10 @@
     src: url("../../assets/fonts/flux_regular.otf")
 }
 
+.main {
+    min-height: 600px;
+}
+
 h1 {
     font-family: 'Flux Regular';
     display: inline;
@@ -60,4 +64,29 @@ h1 {
 
 .ide-text {
     color: rgb(1, 139, 1);
+}
+
+#start-bar {
+    background: linear-gradient(to bottom right, #999999, white);
+    bottom: 40px;
+}
+
+#start-btn {
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333
+}
+
+#start-btn:hover {
+    background-color: teal
+}
+
+#start-btn:active {
+    background-color: rgb(1, 100, 100)
+}
+
+#start-link {
+    color: #1e2933;
+    font-size: 1.5em;
+    font-family: 'Flux Regular';
+    text-decoration: none;
 }

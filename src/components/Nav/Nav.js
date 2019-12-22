@@ -6,7 +6,7 @@ import "./Nav.css"
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-dark navbar-expand-lg justify-content-center py-0">
+      <nav className="navbar navbar-dark navbar-expand-lg justify-content-center py-0 main-nav">
         <Col lg={2} className="text-center nav-btn py-2" id="home-btn">
           <Link className="nav-link" to={"/"}>Home</Link>
         </Col>

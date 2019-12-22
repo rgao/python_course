@@ -3,7 +3,7 @@
     src: url("../../assets/fonts/flux_regular.otf")
 }
 
-.navbar {
+.main-nav {
     background-color: #1e2933;
     font-family: 'Flux Regular';
     border-top: 2px solid #333333;
