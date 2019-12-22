@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 import "./Nav.css"
 
 class Nav extends Component {

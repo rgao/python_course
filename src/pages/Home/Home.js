@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button, Row, Col } from 'react-bootstrap'
 import './Home.css'
 import pylogo from '../../assets/images/python-logo.png'
@@ -60,6 +60,12 @@ class Home extends Component {
                         </div>
                     </Col>
                 </Row>
+
+                <nav className="navbar navbar-light navbar-expand-lg justify-content-center py-0">
+                    <Col lg={2} className="text-center nav-btn py-2" id="home-btn">
+                        <Link className="nav-link" to={"/orientation"}>Get Started</Link>
+                    </Col>
+                </nav>
             </div>
         )
     }

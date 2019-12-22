@@ -19,6 +19,9 @@ class App extends Component {
             <Route exact path="/coursework" component={Coursework} />
             <Route exact path="/resources" component={Resources} />
             <Route exact path="/contacts" component={Contacts} />
+            <Route path='/orientation' component={() => { 
+              window.location.href = 'https://github.com/rgao/python_course/blob/master/src/assets/instructions/orientation.ipynb'; 
+              return null }}/>
             <Route path="*" component={Home} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
