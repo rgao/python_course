@@ -71,22 +71,20 @@ h1 {
     bottom: 40px;
 }
 
-#start-btn {
+#start-link {
     border-left: 1px solid #333333;
-    border-right: 1px solid #333333
+    border-right: 1px solid #333333;
+    color: teal;
+    font-size: 2em;
+    font-family: 'Flux Regular';
+    text-decoration: none;
 }
 
-#start-btn:hover {
+#start-link:hover {
+    color: #1e2933;
     background-color: teal
 }
 
-#start-btn:active {
+#start-link:active {
     background-color: rgb(1, 100, 100)
-}
-
-#start-link {
-    color: #1e2933;
-    font-size: 1.5em;
-    font-family: 'Flux Regular';
-    text-decoration: none;
 }
