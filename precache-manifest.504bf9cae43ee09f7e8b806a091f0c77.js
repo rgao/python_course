@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a13660fea3d89b7db4bc233c36443ee8",
+    "revision": "b67b5559067fca968905c6c10b2d6565",
     "url": "/python_course/index.html"
   },
   {
-    "revision": "e252f373a294b9064b4f",
-    "url": "/python_course/static/css/main.045e6766.chunk.css"
+    "revision": "f77a09f2b04d0707b6f8",
+    "url": "/python_course/static/css/main.4aa1f5e2.chunk.css"
   },
   {
-    "revision": "7fb932ae1516293ba9cc",
-    "url": "/python_course/static/js/2.6742d9ed.chunk.js"
+    "revision": "6ad18b2b9422e0e6d6cc",
+    "url": "/python_course/static/js/2.a95eefda.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/python_course/static/js/2.6742d9ed.chunk.js.LICENSE"
+    "url": "/python_course/static/js/2.a95eefda.chunk.js.LICENSE"
   },
   {
-    "revision": "e252f373a294b9064b4f",
-    "url": "/python_course/static/js/main.744089e7.chunk.js"
+    "revision": "f77a09f2b04d0707b6f8",
+    "url": "/python_course/static/js/main.bcffe7a0.chunk.js"
   },
   {
     "revision": "30531ed692d2d92d758d",
