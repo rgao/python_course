@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { Row, Col } from 'react-bootstrap'
 import './Contacts.css'
 import pylogo from '../../assets/images/python-logo.png'
