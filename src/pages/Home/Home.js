@@ -17,9 +17,9 @@ class Home extends Component {
                     </Col>
                     <Col></Col>
                 </Row>
-
+                
                 <Row className="intro justify-content-center mt-5">
-                    <Col xs={10} md={8} lg={7} xl={6} id="code-editor">
+                    <Col xs={10} md={8} lg={7} xl={6} className="code-editor">
                         <p className="mx-1 my-4 intro-text">
                             # Python is an intuitive, high-level language that serves as an excellent gateway into the world of programming.
                         </p>

@@ -25,7 +25,7 @@ h1 {
     line-height: .6em;
 }
 
-#code-editor {
+.code-editor {
     background: #121b24;
     color: #cccccc;
     border-radius: .25em!important;
