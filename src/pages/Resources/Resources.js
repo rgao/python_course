@@ -8,28 +8,8 @@ class Resources extends Component {
 
     render() {
         return (
-            <Router>
-                <div className="main">
-                    <Switch>
-                        <Route path='/python' component={() => {
-                            window.location.href = 'https://python.org';
-                            return null
-                        }} />
-                        <Route path='/unix' component={() => {
-                            window.location.href = 'http://mally.stanford.edu/~sr/computing/basic-unix.html';
-                            return null
-                        }} />
-                        <Route path='/codecademy' component={() => {
-                            window.location.href = 'https://www.codecademy.com/learn/learn-python';
-                            return null
-                        }} />
-                        <Route path='/khanacademy' component={() => {
-                            window.location.href = 'https://www.khanacademy.org/computing';
-                            return null
-                        }} />
-                    </Switch>
-
-                    <Row className="justify-content-center my-5">
+            <div className="main">
+                <Row className="justify-content-center my-5">
                     <Col></Col>
                     <Col md={10} xl={8} className="justify-content-center align-self-center text-center">
                         <img className="img-responsive" id='python-logo' src={pylogo} />
@@ -39,7 +19,7 @@ class Resources extends Component {
                 </Row>
 
                 <Row className="justify-content-center resource-bar">
-                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/python"}>
+                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/python"} target="_blank">
                         Python Documentation
                     </Link>
                     <Col xs={6} md={5} xl={4} className="resource-text">
@@ -49,7 +29,7 @@ class Resources extends Component {
                 </Row>
 
                 <Row className="justify-content-center resource-bar">
-                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/unix"}>
+                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/unix"} target="_blank">
                         Unix Commands
                     </Link>
                     <Col xs={6} md={5} xl={4} className="resource-text">
@@ -58,7 +38,7 @@ class Resources extends Component {
                 </Row>
 
                 <Row className="justify-content-center resource-bar">
-                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/codeacademy"}>
+                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/codeacademy"} target="_blank">
                         Codecademy
                     </Link>
                     <Col xs={6} md={5} xl={4} className="resource-text">
@@ -68,15 +48,14 @@ class Resources extends Component {
                 </Row>
 
                 <Row className="justify-content-center resource-bar">
-                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/khanacademy"}>
+                    <Link className="col-xs-6 col-md-3 col-xl-2 resource-btn resource-link" to={"/khanacademy"} target="_blank">
                         Khan Academy
                     </Link>
                     <Col xs={6} md={5} xl={4} className="resource-text">
                         Khanacademy doesn't have Python lessons, but is an expansive platform covering both programming and non-coding related topics. Useful for learning about the broader tech world.
                     </Col>
                 </Row>
-                </div>
-            </Router>
+            </div>
         )
     }
 }
