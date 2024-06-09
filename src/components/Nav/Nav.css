@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Flux Regular';
+    src: url("../../assets/fonts/flux_regular.otf")
+}
+
+.main-nav {
+    background-color: #1e2933;
+    font-family: 'Flux Regular';
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid black
+}
+
+/* .navbar-header {
+    float: left;
+    width: 100%;
+    font-family: 'Flux Regular';
+    font-size: 3em;
+    background: -webkit-linear-gradient(#666666, #888888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.nav-btn {
+    border-left: 1px solid #333333;
+    border-right: 1px solid black
+}
+
+.nav-btn:hover {
+    background-color: #121b24
+}
+
+.nav-btn:active {
+    background-color: #020f1d
+}
+
+#home-btn {
+    border-left: 1px solid black
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #dddddd;
+    font-size: 1.5em;
+}
+
+.nav-link:hover {
+    color: gold
+}

@@ -1,0 +1,38 @@
+/* .resource-bar {
+    margin-bottom: 0
+} */
+
+.resource-btn, .resource-text {
+    border-top: 2px solid #1e2933;
+    border-bottom: 2px solid #1e2933;
+}
+
+.resource-btn {
+    background-color: skyblue;
+    font-family: 'Flux Regular';
+    font-size: 2em;
+    border-left: 2px solid #1e2933;
+    border-right: 1px solid #333333;
+}
+
+.resource-text {
+    background-color: #eeeeee;
+    border-right: 2px solid #1e2933;
+    border-left: 1px solid #333333
+}
+
+.warning-text {
+    font-size: .6em;
+    font-style: italic;
+    color: navy;
+}
+
+.resource-link {
+    color: #1e2933
+}
+
+.resource-link:hover, .resource-link:active {
+    text-decoration: none;
+    background-color: rgb(50, 150, 200);
+    color: #1e2933;
+}
